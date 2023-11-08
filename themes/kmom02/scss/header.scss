@@ -1,0 +1,41 @@
+.header {
+    padding: 1em;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header 
+{
+    border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}

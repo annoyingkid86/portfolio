@@ -20,7 +20,7 @@ Det har blivit otaliga bilder och videor ifrån vildsvin, rådjur, räv, älg, g
 
 Sedan december 2022 har jag dessutom en kamera med funktionalitet att skicka bilder till min telefon! Det är spännande att höra sin telefon plinga till mitt i natten!
 
-<div class="imageBorder">
+<div class="imageborder">
 
 <img src= "%assets_url%/img/gravling.png" alt="Grävling">    
 
