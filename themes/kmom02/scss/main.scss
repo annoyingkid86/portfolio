@@ -1,0 +1,16 @@
+.main {
+    
+    flex: 1 0 auto;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-bottom: 1em;
+    
+    background-color: $main-color;
+    
+    h1, h2 {
+        padding-top: 1em;
+    }
+}
+
