@@ -1,0 +1,46 @@
+@media (max-width: 767px) {
+    .footer {
+        padding: 0;
+        margin: 0;
+        display: block;
+        
+        p {
+            padding: 1em;
+            margin: 0;
+        }
+    
+        a {
+            margin: 1rem;
+        }
+    }
+    
+    
+    .landingpage {
+        grid-template-columns: auto;
+    }
+    
+    .gridborder {
+        grid-column: span 1;
+        //width: 100%;
+    }
+    
+    .gridborderdouble {
+        grid-column: span 1;
+    }
+
+    .gridborderfull {
+        grid-column: span 1;
+    }
+    
+    .articlegrid {
+        grid-template-columns: auto;
+    }
+    
+    aside {
+        display: none;
+    }
+
+    .items {
+        display: contents;
+    }
+}

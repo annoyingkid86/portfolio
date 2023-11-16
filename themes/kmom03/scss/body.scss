@@ -1,0 +1,44 @@
+body {
+    background-color: $main-color;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    color: $font-color;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+i {
+    size: 40px;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+    padding: 3em;
+}
