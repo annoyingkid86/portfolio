@@ -1,0 +1,22 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="articlemain" role="main">
+        <div class="articlegrid">
+            <aside>
+                <ul>
+                    {%  include 'incl/aside.twig' %}
+                </ul>
+            </aside>
+            <article>
+                {{ content }}
+            </article>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../../node_modules/normalize.css/normalize.css';
+@import 'dark-variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'body';
+@import 'imageBorder';
+@import 'main';
+@import 'social';
+@import 'footer';
+@import 'header';
+@import 'technology';
+@import 'gridBorder';
+@import 'articleGrid';
+@import 'typografy';
+@import 'mobile-menu';
+@import 'responsive';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');

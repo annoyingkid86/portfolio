@@ -1,0 +1,51 @@
+.header {
+    padding: 1em; 
+    background-color: $header-color;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    
+    a {
+        text-decoration: none;
+    }
+}
+
+.header 
+{
+    border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+.active 
+{
+    background-color: $accessed-color;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: $font-color;
+}
+
+.title p {
+    font-style: italic;
+}
