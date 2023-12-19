@@ -6127,26 +6127,30 @@ code {
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
-  overflow-x: scroll;
 }
 
 pre {
   border: 1px solid #ccc;
   border-radius: 0.3em;
   background: rgb(61, 56, 70);
-  width: 16em;
+  width: 20em;
+  overflow: auto;
+}
+
+.language-html {
+  overflow: auto;
 }
 
 pre code {
   display: block;
   background: none;
   white-space: pre;
-  overflow-x: scroll;
   display: block;
   min-width: 100px;
   font-size: 16px;
   line-height: 1.75;
   padding: 1em;
+  overflow: auto;
 }
 
 body {
@@ -6394,6 +6398,87 @@ img {
   max-width: 100%;
 }
 
+.container {
+  margin-top: 1em;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.container iframe,
+.container object,
+.container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.spreadsheet-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 70%;
+}
+
+.spreadsheet-container iframe,
+.spreadsheet-container object,
+.spreadsheet-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+iframe .spreadsheet {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-nav {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-two-column {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1em;
+}
+.grid-two-column img {
+  display: block;
+  max-width: 100%;
+}
+
+.grid-three-column {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 1em;
+  grid-gap: 1em;
+}
+.grid-three-column img {
+  display: block;
+  width: 100%;
+}
+
+.grid-four-column {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1em;
+}
+.grid-four-column img {
+  display: block;
+  max-width: 100%;
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
@@ -6464,6 +6549,18 @@ img {
   .footer a {
     margin: 1rem;
   }
+  .grid-nav {
+    grid-template-columns: auto;
+  }
+  .grid-two-column {
+    grid-template-columns: auto;
+  }
+  .grid-three-column {
+    grid-template-columns: auto;
+  }
+  .grid-four-column {
+    grid-template-columns: auto;
+  }
   .landingpage {
     grid-template-columns: auto;
   }
@@ -6484,5 +6581,9 @@ img {
   }
   .items {
     display: contents;
+  }
+  .spreadsheet-container {
+    max-width: 100%;
+    height: 32em;
   }
 }

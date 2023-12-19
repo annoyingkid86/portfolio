@@ -5,7 +5,8 @@ code {
     font-family: monospace;
     font-size: 0.85rem;
     line-height: 1.9824;
-    overflow-x: scroll;
+    //overflow-x: scroll;
+    
 }
 
 pre {
@@ -14,7 +15,12 @@ pre {
     border: 1px solid #ccc;
     border-radius: 0.3em;
     background: $code-background;
-    width: 16em;
+    width: 20em;
+    overflow: auto;
+}
+
+.language-html {
+    overflow: auto;
 }
 
 pre code {
@@ -22,10 +28,11 @@ pre code {
     display: block;
     background: none;
     white-space: pre;
-    overflow-x: scroll;
+    //overflow-x: scroll;
     display: block;
     min-width: 100px;
     font-size: 16px;
     line-height: 1.75;
     padding: 1em;
+    overflow: auto;
 }

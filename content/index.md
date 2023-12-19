@@ -6,7 +6,7 @@ Description: Index-sidan!
 Martin Jönsson
 ==========================
 
-![me](%assets_url%/img/me.png)
+![me](image/me.png)
 
 Martin Jönsson heter jag! Bosatt i Vellinge/Hököpinge, Skåne! Jag sysslar med tidningsutdelning, webbprogrammeringsstudier, privata programmeringsprojekt, även konst lite då och då! 
 Det är ingen svårighet att fördriva sin tid!
@@ -22,7 +22,7 @@ Sedan december 2022 har jag dessutom en kamera med funktionalitet att skicka bil
 
 <div class="imageborder">
 
-<img src= "%assets_url%/img/gravling.png" alt="Grävling">    
+<img src= image/gravling.png alt="Grävling">    
 
 <p>Färsk bild ifrån grävlingen! Än har den inte gått i ide!</p>
     

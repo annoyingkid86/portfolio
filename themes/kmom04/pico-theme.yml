@@ -6,6 +6,7 @@ meta:                           # Register meta headers used by this theme
     Tagline: tagline            # Your website's tag line, shown right below your site title (supports Markdown)
     Social: social              # A list of social icons that will be shown in your website's footer;
                                 #     You must specify a "title", "url" and "icon" per entry
+    Gallery: gallery			# Gallery images
 
 
 twig_config:                    # Twig template engine config

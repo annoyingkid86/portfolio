@@ -1,0 +1,15 @@
+<div class="grid-three-column">
+    
+{% for image in pages["_meta"].meta.gallery %}
+        
+        <a href= "{{ base_url }}/image/gallery/{{ image.image }}" target="_blank">
+    <picture>
+        <source media="(min-width: 1920px)" srcset="{{ base_url }}/image/gallery/{{ image.image }}{{ image.args }}&w=755&q=60">
+        <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{ image.image }}{{ image.args }}&w=470&q=60">
+        <source media="(min-width: 376px)" srcset="{{ base_url }}/image/gallery/{{ image.image }}{{ image.args }}&w=264&q=70">
+        <img src="{{base_url}}/image/gallery/{{ image.image }}{{ image.args }}&w=200&q=60" alt={{ image.alt }}>
+    </picture>
+</a>
+{% endfor %}
+
+</div>

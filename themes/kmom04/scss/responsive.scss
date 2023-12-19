@@ -14,6 +14,21 @@
         }
     }
     
+    .grid-nav {
+        grid-template-columns: auto;
+    }
+
+    .grid-two-column {
+        grid-template-columns: auto;
+    }
+
+    .grid-three-column {
+        grid-template-columns: auto;
+    }
+
+    .grid-four-column {
+        grid-template-columns: auto;
+    }
     
     .landingpage {
         grid-template-columns: auto;
@@ -41,5 +56,12 @@
 
     .items {
         display: contents;
+    }
+    
+    
+    
+    .spreadsheet-container {
+        max-width: 100%;
+        height: 32em;
     }
 }

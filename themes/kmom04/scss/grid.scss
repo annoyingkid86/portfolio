@@ -1,0 +1,38 @@
+.grid-nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-two-column {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+    
+    img {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.grid-three-column {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 1em;
+    grid-gap: 1em;
+    
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.grid-four-column {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1em;
+    
+    img {
+        display: block;
+        max-width: 100%;
+    }
+}
